@@ -16,9 +16,9 @@ log = logging.getLogger("telegram-groupme")
 
 DEFAULT_CHANNELS = (
     "Biniaschkenasy,glick_sh,no_politix,lieldaphna,noamamir,"
-    "nadavelimelech,baruchyedid,amirbohbot,yosiyehoshua,Faytuks_Network,"
+    "nadavelimelech,amielyarchi,amirbohbot,yosiyehoshua,Faytuks_Network,"
     "gilicohen11,Ariel_Kahana,BenYaniv,grinzaig,inon_yttach,"
-    "ranboker,almogboker78,kanarab"
+    "ranboker,almogboker78,eli_zil"
 )
 
 CHANNELS = [c.strip() for c in os.environ.get("TELEGRAM_CHANNELS", DEFAULT_CHANNELS).split(",") if c.strip()]
